@@ -6,29 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="f48c830e-efc4-4ce9-89b1-f68ff08a51fc" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gd/Model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gd/Model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gd/contextnet/MyGroupSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gd/contextnet/MyGroupDefiner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gd/interSCity/InterSCity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gd/interSCity/InterSCityData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/javascript/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/javascript/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gd/Model/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gd/connection/HTTPConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gd/connection/HTTPException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gd/dao/DAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gd/dao/UserDAO.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gd/main/MyGroupDefinerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gd/main/MyGroupDefinerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gd/util/GeographicMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gd/Model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gd/Model/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gd/contextnet/MyGroupSelector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gd/interSCity/InterSCity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gd/interSCity/InterSCityData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gd/util/ColorSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gd/util/Sequencial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gd/connection/HTTPConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gd/connection/HTTPException.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/gd/main/MyGroupDefinerMain$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gd/main/MyGroupDefinerMain$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/gd/main/MyGroupDefinerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gd/main/MyGroupDefinerMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gd/util/GeographicMap$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gd/util/GeographicMap$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gd/util/GeographicMap$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gd/util/GeographicMap$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gd/util/GeographicMap$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gd/util/GeographicMap$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gd/util/GeographicMap$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gd/util/GeographicMap$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gd/util/GeographicMap$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gd/util/GeographicMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gd/util/ColorSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gd/util/Sequencial.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +171,10 @@
       <workItem from="1705674687663" duration="2621000" />
       <workItem from="1705763291116" duration="839000" />
       <workItem from="1705855534571" duration="2869000" />
-      <workItem from="1706283363226" duration="617000" />
+      <workItem from="1706283363226" duration="1622000" />
+      <workItem from="1706285563765" duration="162000" />
+      <workItem from="1706285747339" duration="125000" />
+      <workItem from="1706286393839" duration="669000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1698175314527</created>

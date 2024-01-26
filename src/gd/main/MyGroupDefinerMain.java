@@ -33,14 +33,12 @@ import java.util.concurrent.ConcurrentLinkedQueue;
  */
 public class MyGroupDefinerMain {
 	// From: https://stackoverflow.com/questions/56397206/gluon-maps-doesnt-load-the-map-and-throws-an-exception
-	static {
-	    System.setProperty("http.agent", "Gluon Mobile/1.0.3");
-	}
+//	static {
+//	    System.setProperty("http.agent", "Gluon Mobile/1.0.3");
+//	}
 	/*
 	 * Configuration parameters
 	 */
-	/** InterSCity IP address */
-	private static String interSCityIPAddress;
 	/** group description region file */
 	private static String workDir;
 	/** group description file name */
@@ -55,12 +53,12 @@ public class MyGroupDefinerMain {
 	 * 
 	 */
 	public MyGroupDefinerMain() {
-		// HTTP agent to request map tiles
-		String httpAgent = System.getProperty("http.agent");
-		if (httpAgent == null) {
-		    httpAgent = "(" + System.getProperty("os.name") + " / " + System.getProperty("os.version") + " / " + System.getProperty("os.arch") + ")";
-		}
-		System.setProperty("http.agent", "RegionAlert/1.0 " + httpAgent);
+//		// HTTP agent to request map tiles
+//		String httpAgent = System.getProperty("http.agent");
+//		if (httpAgent == null) {
+//		    httpAgent = "(" + System.getProperty("os.name") + " / " + System.getProperty("os.version") + " / " + System.getProperty("os.arch") + ")";
+//		}
+//		System.setProperty("http.agent", "RegionAlert/1.0 " + httpAgent);
 	}
 
 	private static void setEnv(Map<String, String> newenv) throws Exception {
@@ -150,7 +148,7 @@ public class MyGroupDefinerMain {
 			cmd = parser.parse(options, args);
 		} catch (ParseException e) {
 			System.err.println("Date = " +  new Date());
-			formatter.printHelp("MyContextNetCore", options);
+			formatter.printHelp("MyGroupDefinerMain", options);
 			e.printStackTrace();
 			return;
 		}
