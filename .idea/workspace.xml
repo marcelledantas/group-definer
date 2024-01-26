@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f48c830e-efc4-4ce9-89b1-f68ff08a51fc" name="Changes" comment="" />
+    <list default="true" id="f48c830e-efc4-4ce9-89b1-f68ff08a51fc" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gd/Model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gd/Model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gd/contextnet/MyGroupSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gd/contextnet/MyGroupDefiner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gd/interSCity/InterSCity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gd/interSCity/InterSCityData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gd/main/MyGroupDefinerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gd/main/MyGroupDefinerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gd/util/GeographicMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gd/Model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gd/Model/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gd/contextnet/MyGroupSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gd/interSCity/InterSCity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gd/interSCity/InterSCityData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gd/main/MyGroupDefinerMain$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gd/main/MyGroupDefinerMain$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gd/main/MyGroupDefinerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gd/main/MyGroupDefinerMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gd/util/GeographicMap$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gd/util/GeographicMap$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gd/util/GeographicMap$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gd/util/GeographicMap$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gd/util/GeographicMap$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gd/util/GeographicMap$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gd/util/GeographicMap$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gd/util/GeographicMap$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gd/util/GeographicMap$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gd/util/GeographicMap.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +42,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -28,6 +56,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2VhtQKdzXv0fCoAjqdnIAGYPhjL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,7 +66,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/imarc/IdeaProjects/region-alert-v3.0/group-definer&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/imarc/IdeaProjects/region-alert-v3.0/map-pn&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -124,11 +153,57 @@
       <workItem from="1698165620050" duration="665000" />
       <workItem from="1698167750538" duration="157000" />
       <workItem from="1698167913829" duration="2275000" />
-      <workItem from="1698173330544" duration="1493000" />
+      <workItem from="1698173330544" duration="3260000" />
+      <workItem from="1698238524770" duration="2182000" />
+      <workItem from="1698377698741" duration="211000" />
+      <workItem from="1698378521549" duration="904000" />
+      <workItem from="1698419815724" duration="672000" />
+      <workItem from="1698425926356" duration="5097000" />
+      <workItem from="1698464439055" duration="2764000" />
+      <workItem from="1699036869261" duration="3439000" />
+      <workItem from="1699063881997" duration="2198000" />
+      <workItem from="1699633446946" duration="5963000" />
+      <workItem from="1700794075329" duration="4172000" />
+      <workItem from="1703216003029" duration="48000" />
+      <workItem from="1703259053025" duration="6620000" />
+      <workItem from="1703985764130" duration="4217000" />
+      <workItem from="1703991269313" duration="5717000" />
+      <workItem from="1704336045057" duration="944000" />
+      <workItem from="1704830600856" duration="7526000" />
+      <workItem from="1705026632956" duration="607000" />
+      <workItem from="1705322068544" duration="7579000" />
+      <workItem from="1705619611816" duration="2303000" />
+      <workItem from="1705674687663" duration="2621000" />
+      <workItem from="1705763291116" duration="839000" />
+      <workItem from="1705855534571" duration="2869000" />
+      <workItem from="1706283363226" duration="617000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1698175314527</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698175314527</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

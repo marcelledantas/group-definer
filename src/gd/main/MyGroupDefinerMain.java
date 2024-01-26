@@ -3,11 +3,8 @@
  */
 package gd.main;
 
-import gd.connection.HTTPException;
-import gd.contextnet.MyGroupSelector;
-import gd.interSCity.InterSCity;
-import gd.interSCity.InterSCityData;
-import gd.util.Debug;
+import gd.contextnet.MyGroupDefiner;
+
 import gd.util.StaticLibrary;
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
@@ -49,12 +46,6 @@ public class MyGroupDefinerMain {
 	/** group description file name */
 	private static String filename;
 
-	/** An interface to InterSCity */
-	private static InterSCity interSCity;
-//	public static Logger log = Logger.getLogger(MyContextNetCore.class);
-	/** stores a queue of bus data to be sent to the InterSCity */
-	public static ConcurrentLinkedQueue<InterSCityData> mobileObjectQueue = new ConcurrentLinkedQueue<InterSCityData>();
-	
 	/** A queue to send information (objects) to the ContextNet Processing Node */
 	public static ConcurrentLinkedQueue<Object> dataToPNQueue = new ConcurrentLinkedQueue<Object>();
 
@@ -215,7 +206,7 @@ public class MyGroupDefinerMain {
 		try{
 			setEnvironmentVariables();
 			setEnv(env);
-			new MyGroupSelector(workDir, filename);
+			new MyGroupDefiner(workDir, filename);
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}

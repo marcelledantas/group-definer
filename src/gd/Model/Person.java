@@ -1,7 +1,5 @@
 package gd.Model;
 
-import gd.interSCity.InterSCityData;
-
 import java.util.List;
 import java.util.UUID;
 
@@ -10,7 +8,7 @@ import java.util.UUID;
  * @author meslin
  *
  */
-public class Person extends MobileObject implements InterSCityData {
+public class Person extends MobileObject{
 	private String name;
 	private List<Integer> groups;
 	

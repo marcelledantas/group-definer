@@ -8,23 +8,18 @@ import gd.Model.PersonSituation;
 import gd.Model.Region;
 import gd.main.MyGroupDefinerMain;
 import gd.util.Debug;
-import gd.util.GeographicMap;
 import gd.util.StaticLibrary;
 import main.java.ckafka.GroupDefiner;
 import main.java.ckafka.GroupSelection;
 import org.json.JSONObject;
 
-import java.awt.*;
-import java.lang.reflect.Field;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-public class MyGroupSelector implements GroupSelection {
-    private GeographicMap map;
+public class MyGroupDefiner implements GroupSelection {
     private static List<Region> regionList;
     /**
      * maps persons (string id) to a hashset of groups (list of integer)
@@ -37,7 +32,7 @@ public class MyGroupSelector implements GroupSelection {
      *
      * @param filename
      */
-    public MyGroupSelector(String workdir, String filename) {
+    public MyGroupDefiner(String workdir, String filename) {
         ObjectMapper objectMapper = new ObjectMapper();
         Swap swap = new Swap(objectMapper);
         new GroupDefiner(this, swap);
@@ -51,16 +46,6 @@ public class MyGroupSelector implements GroupSelection {
         for (Region region : regionList) {
             region.setPoints(StaticLibrary.readRegion(workdir, region.getFilename()));
         }
-
-        // TODO: remover trecho de código de desenho do mapa
-        /*
-         * checks if there is an graphic environment available (true if not, otherwise, false)
-         */
-        if (!GraphicsEnvironment.isHeadless() && !StaticLibrary.forceHeadless) {
-            map = new GeographicMap(regionList);
-            map.setVisible(true);
-        }
-
     }
 
 
@@ -81,7 +66,6 @@ public class MyGroupSelector implements GroupSelection {
         MobileObject mobileObject = null;
         HashSet<Integer> difGroups;
 
-        // how to handle message from a real Mobile-Hub? Details at http://wiki.lac.inf.puc-rio.br/doku.php?id=m_hub
         try {
             /* objectNode
                 {
@@ -106,6 +90,7 @@ public class MyGroupSelector implements GroupSelection {
             assert mobileObject != null;
             if (region.contains(mobileObject)) {
                 newGroups.add(region.getNumber());
+                System.out.println("NÚMERO DO GRUPO " + region.getNumber());
             }
         }
 
