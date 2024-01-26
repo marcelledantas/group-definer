@@ -32,10 +32,6 @@ import java.util.concurrent.ConcurrentLinkedQueue;
  *
  */
 public class MyGroupDefinerMain {
-	// From: https://stackoverflow.com/questions/56397206/gluon-maps-doesnt-load-the-map-and-throws-an-exception
-//	static {
-//	    System.setProperty("http.agent", "Gluon Mobile/1.0.3");
-//	}
 	/*
 	 * Configuration parameters
 	 */
@@ -53,12 +49,6 @@ public class MyGroupDefinerMain {
 	 * 
 	 */
 	public MyGroupDefinerMain() {
-//		// HTTP agent to request map tiles
-//		String httpAgent = System.getProperty("http.agent");
-//		if (httpAgent == null) {
-//		    httpAgent = "(" + System.getProperty("os.name") + " / " + System.getProperty("os.version") + " / " + System.getProperty("os.arch") + ")";
-//		}
-//		System.setProperty("http.agent", "RegionAlert/1.0 " + httpAgent);
 	}
 
 	private static void setEnv(Map<String, String> newenv) throws Exception {
